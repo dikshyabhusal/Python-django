@@ -23,7 +23,7 @@ print(y)
 print(txt.split())
 
 
-#strip (rstrip for)
+#strip (rstrip for right trim and lstrip for left trim)
 abc="   hello   "
 z=abc.rstrip()
 print("everyone say",z,"To my brother")
@@ -31,6 +31,16 @@ z=abc.lstrip()
 print("everyone say",z,"To my brother")
 
 print(abc.split()) #split
+
+#replace(Replace the strings)
+fruits = "I like mango"
+
+print(fruits.replace("mango", "apples"))
+
+#zfill
+txt = "50"
+
+print(txt.zfill(3))
 
 
 
