@@ -9,5 +9,6 @@ if (x>50) :
         print("you are kid.Live your life with more fun")
 
 
-
+#Wap to take user input email and validate wheather it is corrent email or not
+#WAP to take user input mark percentage and find their division
 
