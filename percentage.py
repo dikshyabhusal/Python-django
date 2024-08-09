@@ -1,4 +1,4 @@
-
+#WAP to take user input mark percentage and find their division
 percentage = float(input("Enter your mark percentage : "))
 if percentage>80 and percentage<=100:
     print("Distinction")
@@ -11,5 +11,16 @@ elif percentage>40 and percentage <=50:
 else:
     print("Fail")
 
+
+#Wap to take user input email and validate wheather it is corrent email or not
+
+email = input("Enter your email: ")
+
+if '@' in email and '.com' in email:
+    print("this is correct email")
+
+else:
+    print("this is wrong email")
+    
 
 
