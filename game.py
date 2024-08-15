@@ -6,8 +6,6 @@ print("ENTER A NUMBER BETWEEN 1 TO 100")
 number = random.randrange(1,100)
 attempts = 1
 
-
-
 while attempts <= 5:
     guess =int(input(f"Attempt{attempts}:Enter guess: "))
     attempts = attempts +1
