@@ -1,11 +1,12 @@
-numbers =[1,5,9,6,89,2,1203,4,23,1,0]
+numbers =[1,5,9,6,89,2,1203,4,23,1,0,-1]
 #list.sort()
 #print(list)
 
 sort_list = []
+i=0
 for number in numbers:
-    for i in range(len(sort_list)):
-        if number <sort_list[i]:
+    for i in range(0,len(sort_list)-1):
+        if number < sort_list[i]:
             sort_list.insert(i,number)
             break
     else:
