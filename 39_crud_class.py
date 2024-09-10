@@ -64,7 +64,7 @@ class School:
             print("Enter 5 for resister delete student")
             print("Enter 6 if you want to exit? ")
             print("\n")
-
+            
             choice = input("Enter your choice:")
             if choice == '1':
                 self.register_student()
