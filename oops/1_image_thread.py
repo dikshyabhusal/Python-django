@@ -6,7 +6,7 @@ def download(image_url, index):
     data = requests.get(image_url)
     with open(f"{index}.png", "wb") as f:
         f.write(data.content)
-    print(f"Download finished for image {index}")
+
 
 image_data = [
     "https://cnex.com.np/images/Pioneering-Female-Img7.png",
